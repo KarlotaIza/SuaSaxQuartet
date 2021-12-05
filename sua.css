@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    /*background: linear-gradient( #335a96 ,  #2e4466  );*/
+    
+}
+
+
+.icono-pq{
+    border-radius: 50%;
+}
+
+.header-logo{
+    
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-bottom: .5px;  
+    background: black; 
+    justify-content: center;
+}
+
+.logo-sua{
+    margin-top:30px;
+    width: 50%;
+    object-fit: fill;
+    
+    
+    
+}
+
+
+video{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    overflow: hidden;
+}
+

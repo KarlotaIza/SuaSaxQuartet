@@ -1,0 +1,170 @@
+.quote{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 90px;
+    color: #1a5276;  
+    
+}
+.section-introduction{
+    background: linear-gradient(#385a76 ,#1a5276 ) ;
+    color: white;
+}
+
+
+.introducción{
+    font-size: 17px;
+    padding: 20px;
+    height: 300px;
+    word-spacing: 7px;
+    line-height: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.quartet-photo{
+    width: 300px;
+    float: right;
+    padding: 20px;
+    
+}
+
+
+.grid-cuadrado div{
+    width: 600px;
+    height: 400px;
+}
+
+.grid-cuadrado{
+    display: grid;
+    grid-template-columns: 2(1fr);
+    grid-template-rows: 2(1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.cuadrado1, .cuadrado4{
+    background:linear-gradient(#385a76 ,#1a5276 ) ;
+    
+}
+.cuadrado1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 2%;
+}
+.cuadrado2{
+    color: white;
+    background: black;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin:10px;
+    border-radius: 2%;
+}
+.cuadrado3{
+    color:white  ;
+    background: url(sua-photos/partitura.jpg);
+    background-size: 600px;
+    object-fit:contain;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 2%;
+}
+.cuadrado4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 2%;
+    align-content: center;
+
+}
+
+.november{
+    margin-left: -70px;
+    width: 300px;
+    height: 400px;
+    rotate: 30deg;
+    float: left;
+    
+    
+}                                                                             
+
+.cuadrado2-noviembre{
+    width: 250px;
+    display: inline-block;
+}
+
+.aqui-calendario{
+    font-size: 16px;
+    color: #f44c03;
+    text-decoration: none;
+}
+
+.contacto-cuadrado{
+    margin: 30px;
+    font-size: 18px;
+}
+
+.social-cuadrado{
+    color: black;
+    
+    width: 30px;
+    margin-top: 40px ;
+    margin-left: 70px;
+}
+
+.enlace-social{
+    display: inline-block;
+    margin: 30px;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.video-cuarteto1{
+    width: 450px;
+    height: 270px;
+    margin: 40px;
+    
+    border: 1px solid white;
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.23);
+-moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.23);
+box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.23);
+}
+
+
+/*EVENTOS*/
+
+h1{
+    letter-spacing: 5px;
+    font-size: 28px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.noeventos{
+    text-align: center;
+    margin-top: 80px;
+}
+
+hr{
+   
+    width: 70%;
+    border:0;
+    height: .5px;
+    background-image: linear-gradient(90deg,  transparent, white, transparent);
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 90px;
+    letter-spacing: 5px;
+}
+.pasados-eventos{
+    margin-top: 50px;
+
+}
+
+.evento1{
+    width: 120px;
+    margin-left: 50px;
+}

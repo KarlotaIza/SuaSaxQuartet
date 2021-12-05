@@ -1,0 +1,62 @@
+
+.topside{
+    margin: 0;
+    padding: 0;
+    height:30px ;
+    background: linear-gradient(#385a76 ,#1a5276    )  ;
+}
+.top-yt, .top-tw{
+    width: 20px;
+}
+.top-insta{
+    width: 17px;
+}
+ .top-face{
+    width: 10px;
+}
+.topside img{
+    padding: 10px;
+    margin-left: 20px;
+    
+    
+}
+.topside img:hover{
+    cursor: pointer;
+}
+
+
+
+
+footer{
+    height: 65px;
+    
+   margin-top: 5px;
+   background:linear-gradient(#385a76 ,#1a5276 ) ;
+    
+    
+}
+
+footer img{
+    
+    margin-left: 20px;
+    margin-bottom: 0px;
+    width: 20px;   
+}
+
+.foot-face{
+    width: 13px;
+    margin-bottom: -3px;
+}
+
+footer img:hover{
+    cursor: pointer;
+    scale: 1.5;
+    transition: 1s;
+}
+
+footer p{
+    font-size: 20px;
+    margin-left: 65%;
+    margin-right: 10px;
+    display: inline-block;
+}
